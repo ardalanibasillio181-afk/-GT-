@@ -9,3 +9,4 @@ session = Session()
 def index():
 products = session.query (Product).all () 
 return str (products)
+python main.py
